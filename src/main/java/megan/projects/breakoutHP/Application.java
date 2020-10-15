@@ -1,5 +1,6 @@
 package megan.projects.breakoutHP;
 
+import megan.projects.breakoutHP.Player.Player;
 import megan.projects.breakoutHP.View.BasicUI;
 import megan.projects.breakoutHP.View.MenuDrivenCLI;
 
@@ -18,6 +19,7 @@ public class Application {
     // our instance of vending machine
 
     private final BasicUI ui;
+    private final Player myPlayer = new Player();
 
     public Application(BasicUI ui) {
         this.ui = ui;
