@@ -1,16 +1,18 @@
 package megan.projects.breakoutHP;
 
 import megan.projects.breakoutHP.Room.Room;
+import megan.projects.breakoutHP.Sprites.Broom;
 import megan.projects.breakoutHP.Sprites.MagicObject;
 import megan.projects.breakoutHP.Sprites.SortingHat;
+import megan.projects.breakoutHP.Sprites.Wand;
 import megan.projects.breakoutHP.View.BasicUI;
 import megan.projects.breakoutHP.View.MenuDrivenCLI;
 
 public class Application {
     private static final String MAIN_MENU_OPTION_DISPLAY_ITEMS = "Explore the Room";
     private static final String MAIN_MENU_OBJECT_1 = "Sorting Hat";
-    private static final String MAIN_MENU_OBJECT_2 = "Object 2";
-    private static final String MAIN_MENU_OBJECT_3 = "Object 3";
+    private static final String MAIN_MENU_OBJECT_2 = "Numbus 3000 Broomstick";
+    private static final String MAIN_MENU_OBJECT_3 = "Wand";
     private static final String MAIN_MENU_OBJECT_4 = "Object 4";
     private static final String MAIN_MENU_OBJECT_5 = "Object 5";
     private static final String MAIN_MENU_OPTIONS_CHECK_LIVES = "Check Lives";
@@ -26,7 +28,7 @@ public class Application {
     //instantiate room with any objects you choose. must declare UI as well. Initialized by constructor.
 
     private final BasicUI ui;
-    private final Room newRoom = new Room(new SortingHat(), new SortingHat(), new SortingHat(), new SortingHat(), new SortingHat());
+    private final Room newRoom = new Room(new SortingHat(), new Broom(), new Wand(), new SortingHat(), new SortingHat());
 
     public Application(BasicUI ui) {
         this.ui = ui;
@@ -62,7 +64,7 @@ public class Application {
                 ui.output("You have " + newRoom.getPlayer1().getLivesString() + " lives remaining. Be careful!");
                 ui.pauseOutput();
             } else if (selection.equals(MAIN_MENU_OPTIONS_CHECK_PROGRESS)) {
-                ui.output("You have collected " + newRoom.getPlayer1().getKeyCountString()+ "keys.\n Continue exploring to find all 5 keys!");
+                ui.output("You have collected " + newRoom.getPlayer1().getKeyCountString()+ " keys.\n Continue exploring to find all 5 keys!");
                 ui.pauseOutput();
 
             }
@@ -83,11 +85,11 @@ public class Application {
                     ui.output("Can you solve my riddle? Enter your guess.");
                     selection = ui.promptForString();
                     if (newRoom.riddleSolved(selection, myMagicalObject) && newRoom.getPlayer1().getKeyCountInt() == 4) {
-                        ui.output("You are correct, and you have bested me at my own game. You have broken out!");
+                        ui.output(newRoom.getObjectAction(myMagicalObject) + " You are correct, and you have bested me at my own game. You have broken out!");
                         System.exit(0);
                     }else if (newRoom.riddleSolved(selection, myMagicalObject)) {
                         newRoom.getPlayer1().foundKey();
-                        ui.output("You are correct. I award you one key.");
+                        ui.output("You are correct! " + newRoom.getObjectAction(myMagicalObject) + " You have found 1 Key.");
                         done = true;
                     }else {
                         newRoom.getPlayer1().loseALife();

@@ -6,7 +6,8 @@ import megan.projects.breakoutHP.Sprites.MagicObject;
 public class SortingHat extends MagicObject {
 
     public SortingHat(){
-        super("Those who don me fear this choice, unless they speak with evil voice.", "Salazar's legacy.", "Sorting Hat");
+        super("Those who don me fear this choice, unless they speak with evil voice.",
+                "Salazar's legacy.", "Sorting Hat");
     }
 
     @Override
@@ -17,8 +18,7 @@ public class SortingHat extends MagicObject {
 
     @Override
     public String action() {
-        return "For you I choose.......GRYFFINDOR! \n" +
-                "You have received a 1 Key.";
+        return "For you I choose.......GRYFFINDOR!";
 
     }
 

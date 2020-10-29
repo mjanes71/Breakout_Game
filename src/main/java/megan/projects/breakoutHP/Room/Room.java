@@ -35,6 +35,10 @@ public class Room {
         return response.equalsIgnoreCase(objectName.answer());
     }
 
+    public String getObjectAction(MagicObject magicObject){
+        return magicObject.action();
+    }
+
 
     public MagicObject getObject1() {
         return object1;
