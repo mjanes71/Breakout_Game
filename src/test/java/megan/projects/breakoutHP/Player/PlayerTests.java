@@ -9,7 +9,7 @@ public class PlayerTests {
     public void found_key_adds_key(){
         Player sut = new Player();
         sut.foundKey();
-        int result = sut.getKeyCount();
+        int result = sut.getKeyCountInt();
         Assert.assertEquals(1, result);
     }
 
@@ -19,7 +19,7 @@ public class PlayerTests {
         sut.foundKey();
         sut.foundKey();
         sut.foundKey();
-        int result = sut.getKeyCount();
+        int result = sut.getKeyCountInt();
         Assert.assertEquals(3, result);
     }
 
@@ -27,7 +27,7 @@ public class PlayerTests {
     public void loseALife_decreases_lives_by_one(){
         Player sut = new Player();
         sut.loseALife();
-        int result = sut.getLives();
+        int result = sut.getLivesInt();
         Assert.assertEquals(4, result);
     }
 
@@ -37,7 +37,7 @@ public class PlayerTests {
         sut.loseALife();
         sut.loseALife();
         sut.loseALife();
-        int result = sut.getLives();
+        int result = sut.getLivesInt();
         Assert.assertEquals(2, result);
     }
 

@@ -10,6 +10,11 @@ public abstract class MagicObject {
     public MagicObject(String riddle, String hint,String name){
         this.riddle = riddle;
         this.hint = hint;
+        this.name = name;
+    }
+
+    public String getName(){
+        return name;
     }
 
     public String getRiddle(){
@@ -22,7 +27,7 @@ public abstract class MagicObject {
 
     public abstract String makeSound();
 
-    public abstract void easterEgg(); // abstract so subclasses have to implement it, no body b/c abstract
+    public abstract String answer();
 
     public abstract String action();
 }

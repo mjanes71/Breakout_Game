@@ -11,21 +11,19 @@ public class SortingHat extends MagicObject {
 
     @Override
     public String makeSound() {
-        return "Now slip me snug around your ears,\n" +
-                "I've never yet been wrong,\n" +
-                "I'll have a look inside your mind\n" +
-                "And tell where you belong!";
+        return "Now slip me snug around your ears,\nI've never yet been wrong,\nI'll have a look inside your mind\nAnd tell where you belong!";
     }
 
-    @Override
-    public void easterEgg() {
-
-    }
 
     @Override
     public String action() {
         return "For you I choose.......GRYFFINDOR! \n" +
                 "You have received a 1 Key.";
 
+    }
+
+    @Override
+    public String answer() {
+        return "Slytherin";
     }
 }

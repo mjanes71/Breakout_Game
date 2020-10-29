@@ -2,13 +2,24 @@ package megan.projects.breakoutHP.Player;
 
 public class Player {
 
-    private int keyCount = 0;
-    private int easterEggCount = 0;
-    private int lives = 5;
+    private static final int KEY_DEFAULT = 0;
+    private static final int LIVES_DEFAULT = 5;
 
+    private int keyCount;
+    private int lives;
+
+
+   public Player(){
+       keyCount = KEY_DEFAULT;
+       lives = LIVES_DEFAULT;
+   }
 
     //Lives logic
-    public int getLives() {
+    public String getLivesString() {
+        return Integer.toString(lives);
+    }
+
+    public int getLivesInt(){
         return lives;
     }
 
@@ -16,13 +27,17 @@ public class Player {
         lives --;
     }
 
-    //Easter Egg Logic
-    public int getEasterEggCount(){
-        return easterEggCount;
+    public boolean outOfLives(){
+        return lives == 0;
     }
 
+
     //Key Logic
-    public int getKeyCount(){
+    public String getKeyCountString(){
+        return Integer.toString(keyCount);
+    }
+
+    public int getKeyCountInt(){
         return keyCount;
     }
 

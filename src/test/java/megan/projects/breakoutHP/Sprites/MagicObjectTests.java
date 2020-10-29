@@ -16,6 +16,7 @@ public class MagicObjectTests {
                 "I'll have a look inside your mind\n" +
                 "And tell where you belong!", result);
 
+
     }
 
 }

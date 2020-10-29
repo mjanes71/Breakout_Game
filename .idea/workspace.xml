@@ -37,7 +37,25 @@
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
-  <component name="RunManager" selected="JUnit.PlayerTests.multiple_loseALife_calls_">
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="megan.projects.breakoutHP.Sprites" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Application">
+    <configuration name="Application" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="megan.projects.breakoutHP.Application" />
+      <module name="Breakout_Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="megan.projects.breakoutHP.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MagicObjectTests.hat_makes_sound" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Breakout_Game" />
       <extension name="coverage">
@@ -49,22 +67,6 @@
       <option name="PACKAGE_NAME" value="megan.projects.breakoutHP.Sprites" />
       <option name="MAIN_CLASS_NAME" value="megan.projects.breakoutHP.Sprites.MagicObjectTests" />
       <option name="METHOD_NAME" value="hat_makes_sound" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="PlayerTests.found_key_adds_key" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Breakout_Game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="megan.projects.breakoutHP.Player.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="megan.projects.breakoutHP.Player" />
-      <option name="MAIN_CLASS_NAME" value="megan.projects.breakoutHP.Player.PlayerTests" />
-      <option name="METHOD_NAME" value="found_key_adds_key" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -86,22 +88,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PlayerTests.multiple_found_key_adds_key" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Breakout_Game" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="megan.projects.breakoutHP.Player.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="megan.projects.breakoutHP.Player" />
-      <option name="MAIN_CLASS_NAME" value="megan.projects.breakoutHP.Player.PlayerTests" />
-      <option name="METHOD_NAME" value="multiple_found_key_adds_key" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="PlayerTests.multiple_loseALife_calls_" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Breakout_Game" />
       <extension name="coverage">
@@ -118,46 +104,66 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RoomTests.object_info_formatting_correctly" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Breakout_Game" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="megan.projects.breakoutHP.Room.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="megan.projects.breakoutHP.Room" />
+      <option name="MAIN_CLASS_NAME" value="megan.projects.breakoutHP.Room.RoomTests" />
+      <option name="METHOD_NAME" value="object_info_formatting_correctly" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Application" />
+        <item itemvalue="JUnit.RoomTests.object_info_formatting_correctly" />
+        <item itemvalue="JUnit.MagicObjectTests.hat_makes_sound" />
         <item itemvalue="JUnit.PlayerTests.multiple_loseALife_calls_" />
         <item itemvalue="JUnit.PlayerTests.loseALife_decreases_lives_by_one" />
-        <item itemvalue="JUnit.PlayerTests.multiple_found_key_adds_key" />
-        <item itemvalue="JUnit.PlayerTests.found_key_adds_key" />
-        <item itemvalue="JUnit.MagicObjectTests.hat_makes_sound" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="WindowStateProjectService">
-    <state x="-1155" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1602792421653">
+    <state x="-1155" y="226" key="#com.intellij.ide.util.MemberChooser" timestamp="1603996675944">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state x="-1155" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602792421653" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1602794884216">
+    <state x="-1155" y="226" key="#com.intellij.ide.util.MemberChooser/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1603996675944" />
+    <state x="-1187" y="388" width="454" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1602796014636">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602794884216" />
+    <state x="-1187" y="388" width="454" height="269" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602796014636" />
+    <state width="1877" height="544" key="GridCell.Tab.0.bottom" timestamp="1604001224751">
+      <screen x="-1920" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="544" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604001224751" />
     <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1602615186550" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1602614498261" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1602794884216">
+    <state width="1237" height="235" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1603195333401" />
+    <state width="1877" height="544" key="GridCell.Tab.0.center" timestamp="1604001224751">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602794884216" />
+    <state width="1877" height="544" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604001224751" />
     <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1602615186550" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1602614498261" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1602794884216">
+    <state width="1237" height="235" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1603195333401" />
+    <state width="1877" height="544" key="GridCell.Tab.0.left" timestamp="1604001224751">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602794884216" />
+    <state width="1877" height="544" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604001224751" />
     <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1602615186550" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1602614498261" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1602794884216">
+    <state width="1237" height="235" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1603195333401" />
+    <state width="1877" height="544" key="GridCell.Tab.0.right" timestamp="1604001224751">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1602794884216" />
+    <state width="1877" height="544" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@-1920.0.1920.1040" timestamp="1604001224751" />
     <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680/-1920.0.1920.1040@0.0.1280.680" timestamp="1602615186550" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1602614498261" />
+    <state width="1237" height="235" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1603195333401" />
     <state x="-1430" y="174" key="Maven.ArtifactSearchDialog" timestamp="1602705768925">
       <screen x="-1920" y="0" width="1920" height="1040" />
     </state>
