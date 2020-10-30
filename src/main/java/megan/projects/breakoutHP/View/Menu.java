@@ -35,7 +35,7 @@ public class Menu {
             // eat the exception, an error message will be displayed below since choice will be null
         }
         if (choice == null) {
-            out.println("\n*** " + userInput + " is not a valid option ***\n");
+            out.println("\033[0;1m" + "\n*** " + userInput + " is not a valid option ***\n" + "\u001b[0m");
         }
         return choice;
     }
@@ -46,7 +46,7 @@ public class Menu {
             int optionNum = i + 1;
             out.println(optionNum + ") " + options[i]);
         }
-        out.print("\nPlease choose an option >>> ");
+        out.print("\033[0;1m" + "\nPlease choose an option >>> "+ "\u001b[0m");
         out.flush();
     }
 }

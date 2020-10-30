@@ -23,12 +23,12 @@ public class Room {
     //omnipotent room - gives information as player progresses and explores
 
     public String objectInfo(MagicObject objectName){
-        return "\"" + objectName.makeSound() + "\"\n" +  "\nYou have found the " + objectName.getName() +
-                "! Can you solve its riddle? \n" + "\n**************Riddle************\n\n" +  objectName.getRiddle();
+        return "\u001b[32m" + "\"" + objectName.makeSound() + "\u001b[0m" + "\"\n" +  "\nYou have found the " + objectName.getName() +
+                "! Can you solve its riddle? \n" + "\033[0;1m" + "\n**************Riddle************\n\n" + "\u001b[31m" +  objectName.getRiddle() + "\u001b[0m";
     }
 
     public String objectHint(MagicObject objectName){
-        return "\n\n**************Hint************\n\n" + objectName.getHint() + "\n\nDo you have another guess?";
+        return "\u001b[34m" +"\n\n**************Hint************\n\n" + objectName.getHint() + "\n\nDo you have another guess?" + "\u001b[0m";
     }
 
     public boolean riddleSolved(String response, MagicObject objectName){
