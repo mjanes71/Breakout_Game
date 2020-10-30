@@ -8,7 +8,7 @@ import megan.projects.breakoutHP.View.MenuDrivenCLI;
 public class Application {
     private static final String MAIN_MENU_OPTION_DISPLAY_ITEMS = "Explore the Room";
     private static final String MAIN_MENU_OBJECT_1 = "Sorting Hat";
-    private static final String MAIN_MENU_OBJECT_2 = "Numbus 3000 Broomstick";
+    private static final String MAIN_MENU_OBJECT_2 = "Nimbus 2000 Broomstick";
     private static final String MAIN_MENU_OBJECT_3 = "Wand";
     private static final String MAIN_MENU_OBJECT_4 = "Magical Creature";
     private static final String MAIN_MENU_OBJECT_5 = "Potion";
